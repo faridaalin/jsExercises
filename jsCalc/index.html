@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator - HTML, CSS, JavaScript</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="calc">
+        <h1>Basic Calculator with HTML, CSS & JS</h1>
+
+        <form class="calcBody">
+            <input type="text"  maxlength="8" class="displayResult" id="calcScreen" name="displayResult" value="0" disabled="disabled">
+            <input type="button" class="btn operator add" name="add" value="+">
+            <input type="button" class="btn operator subtract" name="subtract" value="-">
+            <input type="button" class="btn operator mulitply" name="mulitply" value="x">
+            <input type="button" class="btn operator division" name="division" value="/">
+            <input type="button" class="btn btn-num" name="btn7" value="7">
+            <input type="button" class="btn btn-num" name="btn8" value="8">
+            <input type="button" class="btn btn-num" name="btn4" value="4">
+            <input type="button" class="btn btn-num" name="btn9" value="9">
+            <input type="button" class="btn btn-num" name="btn5" value="5">
+            <input type="button" class="btn btn-num" name="btn6" value="6">
+            <input type="button" class="btn btn-num" name="btn1" value="1">
+            <input type="button" class="btn btn-num" name="btn2" value="2">
+            <input type="button" class="btn btn-num" name="btn3" value="3">
+            <input type="button" class="btn btn-num" name="btn0" value="0">
+            <input type="button" class="btn btn-num" name="btn" value=".">
+            <input type="button" class="btn clear" name="clear" value="AC">
+            <input type="button" class="btn equal" name="equal" value="=">
+        </form>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
