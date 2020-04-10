@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Todo List</title>
+</head>
+<body>
+    <main class="w-4/5 mx-auto">
+        <article class="flex flex-col justify-center items-center max-w-4xl h-full max-w-2xl mx-auto text-teal-900 text-center">
+            <header class="w-2/5 font-normal mb-10">
+                <h1 class="text-3xl"><span class="text-2xl mr-8">Practise project:</span>Todo list</h1>
+            </header>
+            <section class="flex flex-col w-3/6 h-64 border-solid border-2 font-light rounded-lg">
+                <div class="pt-4">
+                    <div class="">
+                        <input type="checkbox" name="" id="toggle">
+                        <label for="">Milk<i class="fa fa-trash ml-8" id="delete"></i></label>
+                    </div>
+                </div>
+    
+                <div class="flex justify-center items-center pb-8">
+                    <input class="bg-gray-200 focus:bg-white h-8 w-3/5 border-solid border-2 focus:outline-none" id="inputField" type="text" name="" id="">
+                    <button class="bg-transparent font-light py-1 px-4 rounded border border-teal-900 hover:bg-teal-900 hover:text-gray-300 hover:border-transparent ml-4 font-bold" id="addBtn" >Add</button>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

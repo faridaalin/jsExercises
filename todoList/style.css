@@ -1,0 +1,12 @@
+:root {
+    --background-color: #C7E3DE;
+    --font-color: #2B4A58;
+}
+
+body {
+    font-family: 'Comic Neue', cursive;
+}
+
+section div:last-of-type {
+    margin-top: auto;
+}
