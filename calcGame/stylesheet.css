@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.game-body {
+    height: 45vh;
+    position: relative;
+}
+
+.rNumber {
+    position: absolute;
+    top: 0;
+    left: 25%;
+}
+
+.fall {
+    /* animation-name: fallDown; */
+    /* animation-duration: 6s; */
+    /* animation-timing-function: linear; speed of animation. Linear means no change in speed */
+    /* animation-delay: 1s; */
+   /*animation-iteration-count: 2; Number of times animaion is played. Animation will be played 2 times.*/
+   /*ALTERNATE : The animation is played forwards first, then backwards:*/
+    /*animation-direction: alternate; Direction of the animation. Normal(means forward), reverse, alternate, alternate-reverse*/
+    /* animation-fill-mode: forwards; element keeps the style values from the last keyframe when the animation ends */
+    animation: fallDown 6s linear forwards;
+}
+
+@keyframes fallDown {
+    to {
+        top: calc(45vh - 3rem);
+    }
+}

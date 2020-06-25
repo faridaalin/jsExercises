@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Calculation - Game</title>
+</head>
+
+<body>
+    <main>
+        <article class="flex flex-col items-center m-auto h-screen justify-center max-w-screen-sm">
+            <h1 class="text-3xl mb-12">Calculation Game</h1>
+            <section class="game-container w-4/6">
+                <header class="game-header flex flex-row justify-between bg-green-200 p-3">
+                    <div class="text-left pl-4">
+                        <h3>Your score</h3>
+                        <span class="score text-3xl">0</span>
+                    </div>
+                    <div class="text-right pr-4">
+                        <h3>Highscore</h3>
+                        <span class="highscore text-3xl">0</span>
+                    </div>
+                </header>
+                <div class="game-body bg-green-100">
+                    <p class="rNumber bg-orange-300 w-6/12 h-12 text-3xl m-auto text-center">0 · 0</p>
+            </div>
+                <footer class="footer">
+                    <input class="answer bg-gray-400 w-full h-16 text-center text-2xl" type="text" placeholder="Your answer">
+                </footer>
+            </section>
+        </article>
+    </main>
+  
+
+    <script src="app.js"></script>
+</body>
+
+</html>
